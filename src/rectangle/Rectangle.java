@@ -98,4 +98,15 @@ public class Rectangle {
 	public double getWidth() {
 	 	return(width);
 	}
-}
+        
+        public boolean equals(Object a){
+            
+            return(true);
+        }
+        public String toString(){
+            String rectangleString;
+            rectangleString= "Rectangle has a length "+ length;
+            return(rectangleString);
+        }
+        }
+

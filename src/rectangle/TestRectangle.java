@@ -16,14 +16,16 @@ package rectangle;
  public class TestRectangle {
 
 	public static void main(String[] args) {
-		Rectangle box = new Rectangle(3, 5);
+		Rectangle box = new Rectangle(1, 1);
                 Rectangle box1 = new Rectangle();
-                box.setLength(6);
-				
+                //box.setLength(6);
+                System.out.println(box1.equals(box));
+		System.out.println(box);		
 		System.out.println("Rectangle has length " + box.getLength() + " and width " + box.getWidth());
 		System.out.println("Rectangle area: " + box.area());
                 System.out.println("Rectangle1 area: " + box1.area());
 		System.out.println("Rectangle perimeter: " + box.perimeter());
                 System.out.println("Rectangle1 length " + box1.getLength());
+                
 	}
 }
